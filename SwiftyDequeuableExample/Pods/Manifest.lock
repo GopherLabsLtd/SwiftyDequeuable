@@ -1,0 +1,16 @@
+PODS:
+  - SwiftyDequeuable (0.0.1)
+
+DEPENDENCIES:
+  - SwiftyDequeuable (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftyDequeuable:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SwiftyDequeuable: 87f58797585c30897a9ea195c23dae7b9a538488
+
+PODFILE CHECKSUM: e376d4972dc70c54ae77e9fdeea3e31a472a9d61
+
+COCOAPODS: 1.2.1

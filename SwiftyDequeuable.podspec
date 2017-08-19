@@ -14,11 +14,9 @@ Pod::Spec.new do |s|
 
   s.description  = "SwiftyDequeuable uses Generics and Protocol Oriented Programming to simplify reusing cells."
 
-  s.homepage     = "https://github.com/itsAlexNguyen/SwiftyDequeuable"if"
+  s.homepage     = "https://github.com/itsAlexNguyen/SwiftyDequeuable"
 
-  s.license      = "MIT (example)"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-
+  s.license      = { :type => "MIT", :file => "License.md" }
 
   s.author             = { "Alex Nguyen" => "hello@gopher.it" }
   s.platform     = :ios

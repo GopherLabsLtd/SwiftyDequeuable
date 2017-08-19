@@ -1,0 +1,6 @@
+framework module SwiftyDequeuable {
+  umbrella header "SwiftyDequeuable-umbrella.h"
+
+  export *
+  module * { export * }
+}

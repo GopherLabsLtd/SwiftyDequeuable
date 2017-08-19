@@ -1,0 +1,6 @@
+framework module Pods_SwiftyDequeuableExample {
+  umbrella header "Pods-SwiftyDequeuableExample-umbrella.h"
+
+  export *
+  module * { export * }
+}
