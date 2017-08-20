@@ -4,6 +4,7 @@ extension UITableViewCell: NibLoadableView, ReusableView {}
 extension UITableView {
     public func registerNib<T: UITableViewCell>(_: T.Type) where T: ReusableView, T: NibLoadableView {
         let nib = UINib(nibName: T.nibName, bundle: nil)
+        print(T.reuseIdentifier)
         register(nib, forCellReuseIdentifier: T.reuseIdentifier)
     }
     
