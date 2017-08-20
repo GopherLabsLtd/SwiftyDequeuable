@@ -1,3 +1,7 @@
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/Chamber.svg)](https://img.shields.io/cocoapods/v/SwiftyDequeuable.svg)
+[![Platform](https://img.shields.io/cocoapods/p/Chamber.svg?style=flat)](http://cocoadocs.org/docsets/SwiftyDequeuable)
+
+# SwiftyDequeuable
 
 SwiftyDequeuable is a a more Elegant way to dequeue cells with a UITableView or a UICollectionView.
 
@@ -75,6 +79,9 @@ func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> U
 ```
 
 SwiftyDequeuable also supports ```UICollectionView```, the steps are very to the ones above. Have a look at the [Example](/SwiftyDequeuableExample).
+
+## Advanced
+
 
 ## License
 
