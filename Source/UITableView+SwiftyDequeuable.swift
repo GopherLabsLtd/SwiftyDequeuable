@@ -2,9 +2,9 @@
 extension UITableViewCell: NibLoadableView, ReusableView {}
 
 extension UITableView {
-    public func register<T: UITableViewCell>(_: T.Type) where T: ReusableView, T: NibLoadableView {
+    public func registerNib<T: UITableViewCell>(_: T.Type) where T: ReusableView, T: NibLoadableView {
         let nib = UINib(nibName: T.nibName, bundle: nil)
-        register(nib, forHeaderFooterViewReuseIdentifier: T.reuseIdentifier)
+        register(nib, forCellReuseIdentifier: T.reuseIdentifier)
     }
     
     public func dequeueReusableCell<T: UITableViewCell>(_: T.Type, forIndexPath indexPath: IndexPath) -> T where T: ReusableView, T: NibLoadableView{

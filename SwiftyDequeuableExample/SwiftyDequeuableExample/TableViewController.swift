@@ -18,16 +18,9 @@ class TableViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         // Register cells with TableView
-        tableView.register(SimpleLabelCell.self)
+        tableView.registerNib(SimpleLabelCell.self)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 }
 
 extension TableViewController: UITableViewDelegate, UITableViewDataSource {
@@ -40,6 +33,9 @@ extension TableViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return UITableViewCell()
+        // If we cannot dequeue cell, a fatal error would be thrown.
+        let cell = tableView.dequeueReusableCell(SimpleLabelCell.self, forIndexPath: indexPath)
+        cell.label.text = "\(SimpleLabelCell.reuseIdentifier) # \(indexPath.row)"
+        return cell
     }
 }

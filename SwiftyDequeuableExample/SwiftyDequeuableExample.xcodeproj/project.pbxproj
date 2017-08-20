@@ -14,6 +14,9 @@
 		465AD3181F48D94A00ACF277 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 465AD3161F48D94A00ACF277 /* LaunchScreen.storyboard */; };
 		465AD32B1F49044100ACF277 /* SimpleLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465AD3291F49044100ACF277 /* SimpleLabelCell.swift */; };
 		465AD32C1F49044100ACF277 /* SimpleLabelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 465AD32A1F49044100ACF277 /* SimpleLabelCell.xib */; };
+		465AD3331F49254B00ACF277 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465AD3321F49254B00ACF277 /* CollectionViewController.swift */; };
+		465AD3381F49263A00ACF277 /* SimpleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465AD3361F49263A00ACF277 /* SimpleCollectionViewCell.swift */; };
+		465AD3391F49263A00ACF277 /* SimpleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 465AD3371F49263A00ACF277 /* SimpleCollectionViewCell.xib */; };
 		F9D1BCB1DAA9C64421F0D26A /* Pods_SwiftyDequeuableExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C82B44116FA4720079B80E /* Pods_SwiftyDequeuableExample.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +30,9 @@
 		465AD3191F48D94A00ACF277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		465AD3291F49044100ACF277 /* SimpleLabelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleLabelCell.swift; sourceTree = "<group>"; };
 		465AD32A1F49044100ACF277 /* SimpleLabelCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleLabelCell.xib; sourceTree = "<group>"; };
+		465AD3321F49254B00ACF277 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		465AD3361F49263A00ACF277 /* SimpleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleCollectionViewCell.swift; sourceTree = "<group>"; };
+		465AD3371F49263A00ACF277 /* SimpleCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleCollectionViewCell.xib; sourceTree = "<group>"; };
 		7E1702CA3E15A67644BF39DC /* Pods-SwiftyDequeuableExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyDequeuableExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyDequeuableExample/Pods-SwiftyDequeuableExample.release.xcconfig"; sourceTree = "<group>"; };
 		D8C82B44116FA4720079B80E /* Pods_SwiftyDequeuableExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyDequeuableExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDFC854EB7000E9CC2C839A9 /* Pods-SwiftyDequeuableExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyDequeuableExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyDequeuableExample/Pods-SwiftyDequeuableExample.debug.xcconfig"; sourceTree = "<group>"; };
@@ -65,14 +71,15 @@
 		465AD30C1F48D94A00ACF277 /* SwiftyDequeuableExample */ = {
 			isa = PBXGroup;
 			children = (
-				465AD3281F4903CD00ACF277 /* CollectionViewCells */,
-				465AD3271F4903C700ACF277 /* TableViewCells */,
-				465AD30D1F48D94A00ACF277 /* AppDelegate.swift */,
-				465AD30F1F48D94A00ACF277 /* TableViewController.swift */,
-				465AD3111F48D94A00ACF277 /* Main.storyboard */,
-				465AD3141F48D94A00ACF277 /* Assets.xcassets */,
-				465AD3161F48D94A00ACF277 /* LaunchScreen.storyboard */,
 				465AD3191F48D94A00ACF277 /* Info.plist */,
+				465AD30D1F48D94A00ACF277 /* AppDelegate.swift */,
+				465AD3321F49254B00ACF277 /* CollectionViewController.swift */,
+				465AD30F1F48D94A00ACF277 /* TableViewController.swift */,
+				465AD3141F48D94A00ACF277 /* Assets.xcassets */,
+				465AD3281F4903CD00ACF277 /* CollectionViewCells */,
+				465AD3161F48D94A00ACF277 /* LaunchScreen.storyboard */,
+				465AD3111F48D94A00ACF277 /* Main.storyboard */,
+				465AD3271F4903C700ACF277 /* TableViewCells */,
 			);
 			path = SwiftyDequeuableExample;
 			sourceTree = "<group>";
@@ -89,6 +96,8 @@
 		465AD3281F4903CD00ACF277 /* CollectionViewCells */ = {
 			isa = PBXGroup;
 			children = (
+				465AD3361F49263A00ACF277 /* SimpleCollectionViewCell.swift */,
+				465AD3371F49263A00ACF277 /* SimpleCollectionViewCell.xib */,
 			);
 			name = CollectionViewCells;
 			sourceTree = "<group>";
@@ -173,6 +182,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				465AD3391F49263A00ACF277 /* SimpleCollectionViewCell.xib in Resources */,
 				465AD3181F48D94A00ACF277 /* LaunchScreen.storyboard in Resources */,
 				465AD3151F48D94A00ACF277 /* Assets.xcassets in Resources */,
 				465AD32C1F49044100ACF277 /* SimpleLabelCell.xib in Resources */,
@@ -235,6 +245,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				465AD3331F49254B00ACF277 /* CollectionViewController.swift in Sources */,
+				465AD3381F49263A00ACF277 /* SimpleCollectionViewCell.swift in Sources */,
 				465AD3101F48D94A00ACF277 /* TableViewController.swift in Sources */,
 				465AD32B1F49044100ACF277 /* SimpleLabelCell.swift in Sources */,
 				465AD30E1F48D94A00ACF277 /* AppDelegate.swift in Sources */,
