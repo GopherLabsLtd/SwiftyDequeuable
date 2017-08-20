@@ -80,9 +80,6 @@ func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> U
 
 SwiftyDequeuable also supports ```UICollectionView```, the steps are very to the ones above. Have a look at the [Example](/SwiftyDequeuableExample).
 
-## Advanced
-
-
 ## License
 
 Moya is released under an MIT license. See [License.md](License.md) for more information.
