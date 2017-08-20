@@ -8,14 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		1009CF6FA4CEB19F33E9CB78A7F5ACFF /* Pods-SwiftyDequeuableExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9522120D3B6C5C2DD98FB455EB99976 /* Pods-SwiftyDequeuableExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		12393ADFB1358B658799531D82CC6E3B /* UITableView+SwiftyDequeuable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506E301D5AD63CE6D139F1999657B42D /* UITableView+SwiftyDequeuable.swift */; };
-		365C361C576C8EDE7BEB181A4A4C7681 /* SwiftyDequeuable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8119072A0E6FDB6F986D9A65A8C62648 /* SwiftyDequeuable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5ACB25C42FD8104B419210D6461DB13E /* SwiftyDequeuable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0C30B8CE9BDF1D0EA7ED595ABDD7AA /* SwiftyDequeuable-dummy.m */; };
+		105F696F764B4BC6A92C89F4974BDC34 /* SwiftyDequeuable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8558E9313B8972DAAE9A696A188B28 /* SwiftyDequeuable-dummy.m */; };
+		24AEC79A18983B93853BE29E4DA26C31 /* UICollectionView+SwiftyDequeuable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C871E320DFB68F01C49908C1FD76D403 /* UICollectionView+SwiftyDequeuable.swift */; };
+		365C361C576C8EDE7BEB181A4A4C7681 /* SwiftyDequeuable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36191C991B8A3F6176B4E5CA3EE732D0 /* SwiftyDequeuable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44FB87369D86D032D955C8071A0B9698 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC53DE6D56E0A814800FAAA0DE0BD2B /* ReusableView.swift */; };
 		98F3FD248FCAAB9E3E98ABC481D31BFE /* Pods-SwiftyDequeuableExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA75C4532AC3B55F8C2E6B8590667D4 /* Pods-SwiftyDequeuableExample-dummy.m */; };
-		C4EF31ADA0D0FA8ADA6794FD405AC7D9 /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC8FB90E45B9E0AD165B65895ADCD1C /* NibLoadableView.swift */; };
+		B759576B5B79AC9F619863ED36C6723E /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AC6B9A319ADF512CBCECAF0E97D28E /* NibLoadableView.swift */; };
+		C7A218C503AC1C8B7D27394C7E2B344D /* UITableView+SwiftyDequeuable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4E7A5AA5725DADC1D3349F59D1DC41 /* UITableView+SwiftyDequeuable.swift */; };
 		DFE1533E2AF37751B74B5431FE863B2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		E795DAEC0BDC333588D874AC7EB05000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		F681C6B94B16D8CDC880E72F40473396 /* UICollectionView+SwiftyDequeuable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4D89CF5BCF719938F554D3758962C3 /* UICollectionView+SwiftyDequeuable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,29 +30,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		003C12D1263D9FC6CB78D659E1AC7B93 /* SwiftyDequeuable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyDequeuable-prefix.pch"; sourceTree = "<group>"; };
 		1A3AE54C4B457CA54BE9ED90B997C880 /* Pods-SwiftyDequeuableExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyDequeuableExample.debug.xcconfig"; sourceTree = "<group>"; };
 		1EC525982583A054BC89F6E15FA57941 /* Pods-SwiftyDequeuableExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyDequeuableExample-acknowledgements.plist"; sourceTree = "<group>"; };
 		1F3A76E09423DEAB6B9042C56BE037A7 /* Pods-SwiftyDequeuableExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftyDequeuableExample-frameworks.sh"; sourceTree = "<group>"; };
 		2358C4A2C262B17F2FEB56F1AFC5F915 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3FC8FB90E45B9E0AD165B65895ADCD1C /* NibLoadableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NibLoadableView.swift; sourceTree = "<group>"; };
+		33410A2F82FA03E2212584B6327C4107 /* SwiftyDequeuable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyDequeuable-prefix.pch"; sourceTree = "<group>"; };
+		36191C991B8A3F6176B4E5CA3EE732D0 /* SwiftyDequeuable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyDequeuable-umbrella.h"; sourceTree = "<group>"; };
+		4527D3BAC912D849B79305BDE470D43A /* SwiftyDequeuable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyDequeuable.xcconfig; sourceTree = "<group>"; };
 		45736A727E4720BDF3A5C93AF7B62D48 /* Pods_SwiftyDequeuableExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftyDequeuableExample.framework; path = "Pods-SwiftyDequeuableExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4AA3560E9CC4865FEC8E808D73E3E5D1 /* SwiftyDequeuable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyDequeuable.xcconfig; sourceTree = "<group>"; };
-		506E301D5AD63CE6D139F1999657B42D /* UITableView+SwiftyDequeuable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITableView+SwiftyDequeuable.swift"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6A4E7A5AA5725DADC1D3349F59D1DC41 /* UITableView+SwiftyDequeuable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITableView+SwiftyDequeuable.swift"; sourceTree = "<group>"; };
 		7580765C461B6EF1D83A1CCCEC082EA2 /* Pods-SwiftyDequeuableExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftyDequeuableExample-resources.sh"; sourceTree = "<group>"; };
 		78FEE3E62479E5AFD8A12124988AD08F /* Pods-SwiftyDequeuableExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyDequeuableExample.release.xcconfig"; sourceTree = "<group>"; };
-		8119072A0E6FDB6F986D9A65A8C62648 /* SwiftyDequeuable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyDequeuable-umbrella.h"; sourceTree = "<group>"; };
-		8F0C30B8CE9BDF1D0EA7ED595ABDD7AA /* SwiftyDequeuable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyDequeuable-dummy.m"; sourceTree = "<group>"; };
+		86AC6B9A319ADF512CBCECAF0E97D28E /* NibLoadableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NibLoadableView.swift; sourceTree = "<group>"; };
+		8E14B2A32CF66B648A21E1F6E4508927 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		954E4EE9FF1569C166D5C4CFB30F633C /* Pods-SwiftyDequeuableExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftyDequeuableExample-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AAD74478A680491674413CAE1CBB4ACD /* Pods-SwiftyDequeuableExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SwiftyDequeuableExample.modulemap"; sourceTree = "<group>"; };
-		BD54DAE24D7C1DFB1F607D975D06BB69 /* SwiftyDequeuable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyDequeuable.modulemap; sourceTree = "<group>"; };
+		AEC53DE6D56E0A814800FAAA0DE0BD2B /* ReusableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		BC8558E9313B8972DAAE9A696A188B28 /* SwiftyDequeuable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyDequeuable-dummy.m"; sourceTree = "<group>"; };
 		C4280A7E3C6475598241005B98E6AE46 /* SwiftyDequeuable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyDequeuable.framework; path = SwiftyDequeuable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE1D118226219EB718F49CBC6937D467 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C871E320DFB68F01C49908C1FD76D403 /* UICollectionView+SwiftyDequeuable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UICollectionView+SwiftyDequeuable.swift"; sourceTree = "<group>"; };
 		D9522120D3B6C5C2DD98FB455EB99976 /* Pods-SwiftyDequeuableExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyDequeuableExample-umbrella.h"; sourceTree = "<group>"; };
+		E43E5198F6D93B0DBA69DFB246770DB9 /* SwiftyDequeuable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyDequeuable.modulemap; sourceTree = "<group>"; };
 		ECA75C4532AC3B55F8C2E6B8590667D4 /* Pods-SwiftyDequeuableExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyDequeuableExample-dummy.m"; sourceTree = "<group>"; };
-		ED4D89CF5BCF719938F554D3758962C3 /* UICollectionView+SwiftyDequeuable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UICollectionView+SwiftyDequeuable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04B2CB8732FE29751E8A7CFE835CE5A8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E14B2A32CF66B648A21E1F6E4508927 /* Info.plist */,
+				E43E5198F6D93B0DBA69DFB246770DB9 /* SwiftyDequeuable.modulemap */,
+				4527D3BAC912D849B79305BDE470D43A /* SwiftyDequeuable.xcconfig */,
+				BC8558E9313B8972DAAE9A696A188B28 /* SwiftyDequeuable-dummy.m */,
+				33410A2F82FA03E2212584B6327C4107 /* SwiftyDequeuable-prefix.pch */,
+				36191C991B8A3F6176B4E5CA3EE732D0 /* SwiftyDequeuable-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "SwiftyDequeuableExample/Pods/Target Support Files/SwiftyDequeuable";
+			sourceTree = "<group>";
+		};
 		0817CF70FB1EF83DADA03712FE238A3B /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -85,23 +101,21 @@
 		320C84286E395836C54026C1FF8CC0A6 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B49CA02AA6F1606B7081C031246A6B12 /* SwiftyDequeuable */,
+				7F863BDBE558F1410E4C05F8DB4B96F1 /* SwiftyDequeuable */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		3C5B00C006D104BA2E260B113EF35936 /* Support Files */ = {
+		73D51BA24E2D09ABCE1E37D9F6FF0225 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				CE1D118226219EB718F49CBC6937D467 /* Info.plist */,
-				BD54DAE24D7C1DFB1F607D975D06BB69 /* SwiftyDequeuable.modulemap */,
-				4AA3560E9CC4865FEC8E808D73E3E5D1 /* SwiftyDequeuable.xcconfig */,
-				8F0C30B8CE9BDF1D0EA7ED595ABDD7AA /* SwiftyDequeuable-dummy.m */,
-				003C12D1263D9FC6CB78D659E1AC7B93 /* SwiftyDequeuable-prefix.pch */,
-				8119072A0E6FDB6F986D9A65A8C62648 /* SwiftyDequeuable-umbrella.h */,
+				86AC6B9A319ADF512CBCECAF0E97D28E /* NibLoadableView.swift */,
+				AEC53DE6D56E0A814800FAAA0DE0BD2B /* ReusableView.swift */,
+				C871E320DFB68F01C49908C1FD76D403 /* UICollectionView+SwiftyDequeuable.swift */,
+				6A4E7A5AA5725DADC1D3349F59D1DC41 /* UITableView+SwiftyDequeuable.swift */,
 			);
-			name = "Support Files";
-			path = "SwiftyDequeuableExample/Pods/Target Support Files/SwiftyDequeuable";
+			name = Source;
+			path = Source;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -115,15 +129,14 @@
 			);
 			sourceTree = "<group>";
 		};
-		9ED539E44778CB57041232911D3A7F75 /* Source */ = {
+		7F863BDBE558F1410E4C05F8DB4B96F1 /* SwiftyDequeuable */ = {
 			isa = PBXGroup;
 			children = (
-				3FC8FB90E45B9E0AD165B65895ADCD1C /* NibLoadableView.swift */,
-				ED4D89CF5BCF719938F554D3758962C3 /* UICollectionView+SwiftyDequeuable.swift */,
-				506E301D5AD63CE6D139F1999657B42D /* UITableView+SwiftyDequeuable.swift */,
+				73D51BA24E2D09ABCE1E37D9F6FF0225 /* Source */,
+				04B2CB8732FE29751E8A7CFE835CE5A8 /* Support Files */,
 			);
-			name = Source;
-			path = Source;
+			name = SwiftyDequeuable;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		AE69BDD46EA38583958FD88788785FA9 /* Pods-SwiftyDequeuableExample */ = {
@@ -142,16 +155,6 @@
 			);
 			name = "Pods-SwiftyDequeuableExample";
 			path = "Target Support Files/Pods-SwiftyDequeuableExample";
-			sourceTree = "<group>";
-		};
-		B49CA02AA6F1606B7081C031246A6B12 /* SwiftyDequeuable */ = {
-			isa = PBXGroup;
-			children = (
-				9ED539E44778CB57041232911D3A7F75 /* Source */,
-				3C5B00C006D104BA2E260B113EF35936 /* Support Files */,
-			);
-			name = SwiftyDequeuable;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -223,7 +226,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C93D7600787E679D067147D075D0A71 /* Build configuration list for PBXNativeTarget "SwiftyDequeuable" */;
 			buildPhases = (
-				853205D1FA3310533908CE244FFA5A07 /* Sources */,
+				156A9B4E97775E7048060675E86C4ADC /* Sources */,
 				A7A4B822BAFF935550FF303D23F993E1 /* Frameworks */,
 				BA4CBD22ABEABEDEBCCD902BD21D987A /* Headers */,
 			);
@@ -264,22 +267,23 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		156A9B4E97775E7048060675E86C4ADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B759576B5B79AC9F619863ED36C6723E /* NibLoadableView.swift in Sources */,
+				44FB87369D86D032D955C8071A0B9698 /* ReusableView.swift in Sources */,
+				105F696F764B4BC6A92C89F4974BDC34 /* SwiftyDequeuable-dummy.m in Sources */,
+				24AEC79A18983B93853BE29E4DA26C31 /* UICollectionView+SwiftyDequeuable.swift in Sources */,
+				C7A218C503AC1C8B7D27394C7E2B344D /* UITableView+SwiftyDequeuable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		68F1A389FF8831ACD3035CA2714B7AAF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				98F3FD248FCAAB9E3E98ABC481D31BFE /* Pods-SwiftyDequeuableExample-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		853205D1FA3310533908CE244FFA5A07 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C4EF31ADA0D0FA8ADA6794FD405AC7D9 /* NibLoadableView.swift in Sources */,
-				5ACB25C42FD8104B419210D6461DB13E /* SwiftyDequeuable-dummy.m in Sources */,
-				F681C6B94B16D8CDC880E72F40473396 /* UICollectionView+SwiftyDequeuable.swift in Sources */,
-				12393ADFB1358B658799531D82CC6E3B /* UITableView+SwiftyDequeuable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,7 +470,7 @@
 		};
 		8A677114FBB95EA04723A4EA763B57A4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4AA3560E9CC4865FEC8E808D73E3E5D1 /* SwiftyDequeuable.xcconfig */;
+			baseConfigurationReference = 4527D3BAC912D849B79305BDE470D43A /* SwiftyDequeuable.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -500,7 +504,7 @@
 		};
 		CDE2111603C20B3763532C4921C1F48E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4AA3560E9CC4865FEC8E808D73E3E5D1 /* SwiftyDequeuable.xcconfig */;
+			baseConfigurationReference = 4527D3BAC912D849B79305BDE470D43A /* SwiftyDequeuable.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import SwiftyDequeuable
 
 class SimpleLabelCell: UITableViewCell {
 
