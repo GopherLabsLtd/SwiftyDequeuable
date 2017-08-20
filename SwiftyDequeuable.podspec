@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SwiftyDequeuable"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "A more simpler way to Dequeue Cells in Swift"
 
   s.description  = "SwiftyDequeuable uses Generics and Protocol Oriented Programming to simplify reusing cells."
