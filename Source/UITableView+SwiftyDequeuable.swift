@@ -1,14 +1,18 @@
-protocol ReusableTableViewCell {
+public protocol ReusableTableViewCell {
     // Empty
 }
 
-extension ReusableTableViewCell where Self: UITableViewCell {
+public extension ReusableTableViewCell where Self: UITableViewCell {
     static var reuseIdentifier: String {
         return String(describing: self)
     }
 }
 
-extension UITableView {
+extension UITableViewCell: NibLoadableView, ReusableTableViewCell {
+
+}
+
+public extension UITableView {
     func register<T: UITableViewCell>(_: T.Type) where T: ReusableTableViewCell, T: NibLoadableView {
         let nib = UINib(nibName: T.nibName, bundle: nil)
         register(nib, forHeaderFooterViewReuseIdentifier: T.reuseIdentifier)

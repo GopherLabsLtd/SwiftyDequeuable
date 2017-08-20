@@ -1,14 +1,18 @@
-protocol ReusableCollectionViewCell {
+public protocol ReusableCollectionViewCell {
     // Empty
 }
 
-extension ReusableCollectionViewCell where Self: UICollectionViewCell {
+public extension ReusableCollectionViewCell where Self: UICollectionViewCell {
     static var reuseIdentifier: String {
         return String(describing: self)
     }
 }
 
-extension UICollectionView {
+extension UICollectionViewCell: NibLoadableView, ReusableCollectionViewCell {
+
+}
+
+public extension UICollectionView {
     func register<T: UICollectionViewCell>(_: T.Type) where T: ReusableCollectionViewCell, T: NibLoadableView {
         let nib = UINib(nibName: T.nibName, bundle: nil)
         register(nib, forCellWithReuseIdentifier: T.reuseIdentifier)
