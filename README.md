@@ -82,4 +82,4 @@ SwiftyDequeuable also supports ```UICollectionView```, the steps are very to the
 
 ## License
 
-Moya is released under an MIT license. See [License.md](License.md) for more information.
+SwiftyDequeuable is released under an MIT license. See [License.md](License.md) for more information.
