@@ -9,8 +9,7 @@ With Swift, we have the power of Protocol Oriented Programming +  Protocol Exten
 
 We go from...
 
-```
-
+```swift
 override func viewDidLoad() {
      super.viewDidLoad()
 
@@ -22,8 +21,7 @@ override func viewDidLoad() {
 
 To something a little more Elegant...
 
-```
-
+```swift
 override func viewDidLoad() {
     super.viewDidLoad()
 
@@ -38,15 +36,14 @@ No more strings!
 
 ### Cocoapods
 
-```
-
+```cocoapods
   pod 'SwiftyDequeuable'
 ```
 
 ## Usage
 Create a new cell with the corresponding .xib
 
-```
+```swift
 import UIKit
 
 class SimpleLabelCell: UITableViewCell {
@@ -57,8 +54,7 @@ class SimpleLabelCell: UITableViewCell {
 
 In your ```viewDidLoad``` register your cell (or where ever you usually register your cells)
 
-```
-
+```swift
 override func viewDidLoad() {
     super.viewDidLoad()
 
@@ -69,8 +65,7 @@ override func viewDidLoad() {
 
 In your ```cellForRowAt``` of your ```UITableViewDatasource``` you can dequeue the cell by...
 
-```
-
+```swift
 func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
   // If we cannot dequeue cell, a fatal error would be thrown.
   let cell = tableView.dequeueReusableCell(SimpleLabelCell.self, forIndexPath: indexPath)
