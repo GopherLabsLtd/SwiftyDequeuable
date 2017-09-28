@@ -9,12 +9,12 @@
 Pod::Spec.new do |s|
 
   s.name         = "SwiftyDequeuable"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "A more simpler way to Dequeue Cells in Swift"
 
   s.description  = "SwiftyDequeuable uses Generics and Protocol Oriented Programming to simplify reusing cells."
 
-  s.homepage     = "https://github.com/itsAlexNguyen/SwiftyDequeuable"
+  s.homepage     = "https://github.com/GopherLabsLtd/SwiftyDequeuable"
 
   s.license      = { :type => "MIT", :file => "License.md" }
 
