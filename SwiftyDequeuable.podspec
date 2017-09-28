@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SwiftyDequeuable"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "A more simpler way to Dequeue Cells in Swift"
 
   s.description  = "SwiftyDequeuable uses Generics and Protocol Oriented Programming to simplify reusing cells."
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = "8.0"
 
-  s.source       = { :git => "https://github.com/itsAlexNguyen/SwiftyDequeuable.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/GopherLabsLtd/SwiftyDequeuable.git", :tag => "#{s.version}" }
 
   s.source_files  = "Source/"
   s.exclude_files = "Source/Exclude"
