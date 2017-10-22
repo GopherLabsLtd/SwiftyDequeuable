@@ -1,6 +1,8 @@
-[![BuddyBuild](https://dashboard.buddybuild.com/api/statusImage?appID=59ebe2953389a60001fac022&branch=master&build=latest)](https://dashboard.buddybuild.com/apps/59ebe2953389a60001fac022/build/latest?branch=master) [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/Chamber.svg)](https://img.shields.io/cocoapods/v/SwiftyDequeuable.svg)
-[![Platform](https://img.shields.io/cocoapods/p/Chamber.svg?style=flat)](http://cocoadocs.org/docsets/SwiftyDequeuable)
+[![BuddyBuild](https://dashboard.buddybuild.com/api/statusImage?appID=59ebe2953389a60001fac022&branch=master&build=latest)](https://dashboard.buddybuild.com/apps/59ebe2953389a60001fac022/build/latest?branch=master) 
 
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/Chamber.svg)](https://img.shields.io/cocoapods/v/SwiftyDequeuable.svg)
+[![Platform](https://img.shields.io/cocoapods/p/Chamber.svg?style=flat)](http://cocoadocs.org/docsets/SwiftyDequeuable)
+[![CocoaPods](https://img.shields.io/cocoapods/l/SwiftyDequeuable.svg)]()
 # SwiftyDequeuable
 
 SwiftyDequeuable is a a more Elegant way to dequeue cells with a UITableView or a UICollectionView.
