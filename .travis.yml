@@ -1,5 +1,9 @@
 language: objective-c
 osx_image: xcode9
-xcode_workspace: SwiftyDequeuableExample/SwiftyDequeuableExample.xcworkspace
-xcode_scheme: SwiftyDequeuableExample
-xcode_sdk: iphonesimulator11.0
+podfile: SwiftyDequeuableExample/Podfile
+
+before_script:
+  - cd SwiftyDequeuableExample
+
+script:
+  - xcodebuild clean && xcodebuild build -workspace SwiftyDequeuableExample.xcworkspace -scheme SwiftyDequeuableExample
