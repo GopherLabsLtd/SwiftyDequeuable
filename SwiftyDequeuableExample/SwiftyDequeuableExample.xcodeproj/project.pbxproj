@@ -17,8 +17,19 @@
 		465AD3331F49254B00ACF277 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465AD3321F49254B00ACF277 /* CollectionViewController.swift */; };
 		465AD3381F49263A00ACF277 /* SimpleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465AD3361F49263A00ACF277 /* SimpleCollectionViewCell.swift */; };
 		465AD3391F49263A00ACF277 /* SimpleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 465AD3371F49263A00ACF277 /* SimpleCollectionViewCell.xib */; };
+		46DEBBD51FA695DB0044BEBC /* SwiftyDequeuableExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DEBBD41FA695DB0044BEBC /* SwiftyDequeuableExampleTests.swift */; };
 		F9D1BCB1DAA9C64421F0D26A /* Pods_SwiftyDequeuableExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C82B44116FA4720079B80E /* Pods_SwiftyDequeuableExample.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46DEBBD71FA695DB0044BEBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 465AD3021F48D94A00ACF277 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 465AD3091F48D94A00ACF277;
+			remoteInfo = SwiftyDequeuableExample;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		465AD30A1F48D94A00ACF277 /* SwiftyDequeuableExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyDequeuableExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,6 +44,9 @@
 		465AD3321F49254B00ACF277 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		465AD3361F49263A00ACF277 /* SimpleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleCollectionViewCell.swift; sourceTree = "<group>"; };
 		465AD3371F49263A00ACF277 /* SimpleCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleCollectionViewCell.xib; sourceTree = "<group>"; };
+		46DEBBD21FA695DB0044BEBC /* SwiftyDequeuableExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyDequeuableExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46DEBBD41FA695DB0044BEBC /* SwiftyDequeuableExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyDequeuableExampleTests.swift; sourceTree = "<group>"; };
+		46DEBBD61FA695DB0044BEBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E1702CA3E15A67644BF39DC /* Pods-SwiftyDequeuableExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyDequeuableExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyDequeuableExample/Pods-SwiftyDequeuableExample.release.xcconfig"; sourceTree = "<group>"; };
 		D8C82B44116FA4720079B80E /* Pods_SwiftyDequeuableExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyDequeuableExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDFC854EB7000E9CC2C839A9 /* Pods-SwiftyDequeuableExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyDequeuableExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyDequeuableExample/Pods-SwiftyDequeuableExample.debug.xcconfig"; sourceTree = "<group>"; };
@@ -47,6 +61,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		46DEBBCF1FA695DB0044BEBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -54,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				465AD30C1F48D94A00ACF277 /* SwiftyDequeuableExample */,
+				46DEBBD31FA695DB0044BEBC /* SwiftyDequeuableExampleTests */,
 				465AD30B1F48D94A00ACF277 /* Products */,
 				EB1D8C2C2236C627B00D37D4 /* Pods */,
 				C31FF0BBF7B64BBCA3A5FE8D /* Frameworks */,
@@ -64,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				465AD30A1F48D94A00ACF277 /* SwiftyDequeuableExample.app */,
+				46DEBBD21FA695DB0044BEBC /* SwiftyDequeuableExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,6 +123,15 @@
 				465AD3371F49263A00ACF277 /* SimpleCollectionViewCell.xib */,
 			);
 			name = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		46DEBBD31FA695DB0044BEBC /* SwiftyDequeuableExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				46DEBBD41FA695DB0044BEBC /* SwiftyDequeuableExampleTests.swift */,
+				46DEBBD61FA695DB0044BEBC /* Info.plist */,
+			);
+			path = SwiftyDequeuableExampleTests;
 			sourceTree = "<group>";
 		};
 		C31FF0BBF7B64BBCA3A5FE8D /* Frameworks */ = {
@@ -142,13 +174,31 @@
 			productReference = 465AD30A1F48D94A00ACF277 /* SwiftyDequeuableExample.app */;
 			productType = "com.apple.product-type.application";
 		};
+		46DEBBD11FA695DB0044BEBC /* SwiftyDequeuableExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46DEBBDB1FA695DB0044BEBC /* Build configuration list for PBXNativeTarget "SwiftyDequeuableExampleTests" */;
+			buildPhases = (
+				46DEBBCE1FA695DB0044BEBC /* Sources */,
+				46DEBBCF1FA695DB0044BEBC /* Frameworks */,
+				46DEBBD01FA695DB0044BEBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46DEBBD81FA695DB0044BEBC /* PBXTargetDependency */,
+			);
+			name = SwiftyDequeuableExampleTests;
+			productName = SwiftyDequeuableExampleTests;
+			productReference = 46DEBBD21FA695DB0044BEBC /* SwiftyDequeuableExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		465AD3021F48D94A00ACF277 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Gopher Labs LTD";
 				TargetAttributes = {
@@ -156,6 +206,12 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = ZY7497MHJE;
 						ProvisioningStyle = Automatic;
+					};
+					46DEBBD11FA695DB0044BEBC = {
+						CreatedOnToolsVersion = 9.0.1;
+						DevelopmentTeam = ZY7497MHJE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 465AD3091F48D94A00ACF277;
 					};
 				};
 			};
@@ -173,6 +229,7 @@
 			projectRoot = "";
 			targets = (
 				465AD3091F48D94A00ACF277 /* SwiftyDequeuableExample */,
+				46DEBBD11FA695DB0044BEBC /* SwiftyDequeuableExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +244,13 @@
 				465AD3151F48D94A00ACF277 /* Assets.xcassets in Resources */,
 				465AD32C1F49044100ACF277 /* SimpleLabelCell.xib in Resources */,
 				465AD3131F48D94A00ACF277 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46DEBBD01FA695DB0044BEBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +323,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		46DEBBCE1FA695DB0044BEBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46DEBBD51FA695DB0044BEBC /* SwiftyDequeuableExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46DEBBD81FA695DB0044BEBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 465AD3091F48D94A00ACF277 /* SwiftyDequeuableExample */;
+			targetProxy = 46DEBBD71FA695DB0044BEBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		465AD3111F48D94A00ACF277 /* Main.storyboard */ = {
@@ -404,6 +484,60 @@
 			};
 			name = Release;
 		};
+		46DEBBD91FA695DB0044BEBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZY7497MHJE;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = SwiftyDequeuableExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = it.gopher.SwiftyDequeuableExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftyDequeuableExample.app/SwiftyDequeuableExample";
+			};
+			name = Debug;
+		};
+		46DEBBDA1FA695DB0044BEBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZY7497MHJE;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = SwiftyDequeuableExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = it.gopher.SwiftyDequeuableExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftyDequeuableExample.app/SwiftyDequeuableExample";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -421,6 +555,15 @@
 			buildConfigurations = (
 				465AD31D1F48D94A00ACF277 /* Debug */,
 				465AD31E1F48D94A00ACF277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46DEBBDB1FA695DB0044BEBC /* Build configuration list for PBXNativeTarget "SwiftyDequeuableExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46DEBBD91FA695DB0044BEBC /* Debug */,
+				46DEBBDA1FA695DB0044BEBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
