@@ -1,5 +1,5 @@
 PODS:
-  - SwiftyDequeuable (1.0.1)
+  - SwiftyDequeuable (1.0.2)
 
 DEPENDENCIES:
   - SwiftyDequeuable (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SwiftyDequeuable: daeef62f27e2fcbbd9e329e6a0cd99d183a03a1b
+  SwiftyDequeuable: d03a0ddcbb7e90e45b021e0ff0ad471e48fb2e1c
 
 PODFILE CHECKSUM: e376d4972dc70c54ae77e9fdeea3e31a472a9d61
 
