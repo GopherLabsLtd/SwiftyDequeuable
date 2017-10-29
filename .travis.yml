@@ -6,4 +6,4 @@ before_script:
   - cd SwiftyDequeuableExample
 
 script:
-  - xcodebuild clean && xcodebuild build -workspace SwiftyDequeuableExample.xcworkspace -scheme SwiftyDequeuableExample
+  - xcodebuild clean && xcodebuild build -workspace SwiftyDequeuableExample.xcworkspace -scheme SwiftyDequeuableExample -allowProvisioningUpdates
