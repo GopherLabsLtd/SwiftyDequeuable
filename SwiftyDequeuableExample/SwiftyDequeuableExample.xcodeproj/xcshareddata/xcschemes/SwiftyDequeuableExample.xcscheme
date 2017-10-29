@@ -29,6 +29,16 @@
       language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "46DEBBD11FA695DB0044BEBC"
+               BuildableName = "SwiftyDequeuableExampleTests.xctest"
+               BlueprintName = "SwiftyDequeuableExampleTests"
+               ReferencedContainer = "container:SwiftyDequeuableExample.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
